@@ -6,9 +6,49 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #231F20;
+  background-color: #eef3f6;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  max-width: 600px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 2px 4px rgba(15,20,42,0.05);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.header-img {
+  height: 70px;
+}
+.header-img-right {
+  float: right;
+}
+
+input.poke-search {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  padding: 0px 16px 0 16px;
+  font-size: 16px;
+  outline: none;
 }

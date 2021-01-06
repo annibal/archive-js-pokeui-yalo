@@ -5,13 +5,13 @@ function HomePage() {
     return (
         <Layout id="home" title="Home">
             <Card>
-                Some presentation thing
-            </Card>
-            <Card>
-                Search for pokemons
-            </Card>
-            <Card>
-                Pokemon result list
+                <input
+                    type="search"
+                    className="poke-search"
+                    placeholder="Search for pokemon"
+                />
+                
+
             </Card>
         </Layout>
     )
