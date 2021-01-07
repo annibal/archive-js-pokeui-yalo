@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -11,7 +11,7 @@ import PokemonPage from "./pages/PokemonPage";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <Switch>
         <Route exact path="/favorites">
           <FavoritePokemon />
@@ -26,7 +26,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
