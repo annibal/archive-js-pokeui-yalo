@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { isFavorite, changeFavorite } from "../providers/favoritesProvider";
 
-function PokemonFavoriteStar({ id }) {
+function PokemonFavoriteStar({ id, onChangeFavorite = () => {} }) {
     const [favorite, setFavorite] = useState(false);
     useEffect(() => {
         if (isFavorite(id)) {
@@ -9,15 +9,19 @@ function PokemonFavoriteStar({ id }) {
         }
     }, [id]);
 
-    const handleFavoriteClick = () => {
+    const handleFavoriteClick = event => {
         changeFavorite(id);
-        setFavorite(!favorite);
+        const newFav = !favorite
+        setFavorite(newFav);
+        onChangeFavorite(newFav);
+        
+        event.preventDefault();
     }
 
     return (
         <span
             className={`pokemon-favorite pokemon-favorite-${favorite ? 'true' : 'false'}`}
-            onClick={() => handleFavoriteClick(id)}
+            onClick={handleFavoriteClick}
         >
             {favorite ? '★' : '☆'}
         </span>

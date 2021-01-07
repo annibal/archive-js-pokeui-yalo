@@ -65,7 +65,7 @@ function HomePage() {
                 {!isLoading && pokemons.length === 0 && (<div className="not-ready">No pokemon found</div>)}
                 {!isLoading && pokemons.length > 0 && pokemons.map(pokemon => (
                     <PokemonCard key={pokemon.id+'-'+pokemon.name} pokemon={pokemon} />
-                    ))}
+                ))}
                 {!isLoading && pokemons.length > 0 && d_PokeSearch.length > 2 && (
                     <div className="load-more-container">
                         {isLoadingMore

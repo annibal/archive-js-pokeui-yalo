@@ -11,6 +11,7 @@ export const addFavorite = id => upd(favs => {
 
 export const removeFavorite = id => upd(
     favs => Object.keys(favs)
+        // eslint-disable-next-line eqeqeq
         .filter(key => key != id)
         .reduce((all, curr) => ({
             ...all,
@@ -27,3 +28,5 @@ export const changeFavorite = id => {
         addFavorite(id);
     }
 }
+
+export const getFavorites = () => Object.keys(fromStore() || {})
