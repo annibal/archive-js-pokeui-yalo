@@ -1,3 +1,5 @@
+import PokemonFavoriteStar from "./PokemonFavoriteStar"
+
 function PokemonCard({ pokemon }) {
     return (
         <div className="pokemon-card">
@@ -8,7 +10,7 @@ function PokemonCard({ pokemon }) {
                 <p className="pokemon-name-wrapper">
                     <span className="pokemon-number">{pokemon.id}</span>
                     <span className="pokemon-name">{pokemon.name}</span>
-                    <span className="pokemon-favorite">★☆</span>
+                    <PokemonFavoriteStar id={pokemon.id} />
                 </p>
                 <p className="pokemon-types">
                     {pokemon.types.map(type => (
@@ -26,7 +28,7 @@ function PokemonCard({ pokemon }) {
                 ))}
             </div>
         </div>
-    )
+    );
 }
 
-export default PokemonCard
+export default PokemonCard;
