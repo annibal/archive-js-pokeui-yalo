@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.bac7a841.chunk.css",
-    "main.js": "/static/js/main.f0d414eb.chunk.js",
-    "main.js.map": "/static/js/main.f0d414eb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6377c214.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6377c214.js.map",
-    "static/js/2.4c6b98b0.chunk.js": "/static/js/2.4c6b98b0.chunk.js",
-    "static/js/2.4c6b98b0.chunk.js.map": "/static/js/2.4c6b98b0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.bac7a841.chunk.css.map": "/static/css/main.bac7a841.chunk.css.map",
-    "static/js/2.4c6b98b0.chunk.js.LICENSE.txt": "/static/js/2.4c6b98b0.chunk.js.LICENSE.txt"
+    "main.css": "/pokeui-yalo/static/css/main.bac7a841.chunk.css",
+    "main.js": "/pokeui-yalo/static/js/main.f0d414eb.chunk.js",
+    "main.js.map": "/pokeui-yalo/static/js/main.f0d414eb.chunk.js.map",
+    "runtime-main.js": "/pokeui-yalo/static/js/runtime-main.0d235b4e.js",
+    "runtime-main.js.map": "/pokeui-yalo/static/js/runtime-main.0d235b4e.js.map",
+    "static/js/2.4c6b98b0.chunk.js": "/pokeui-yalo/static/js/2.4c6b98b0.chunk.js",
+    "static/js/2.4c6b98b0.chunk.js.map": "/pokeui-yalo/static/js/2.4c6b98b0.chunk.js.map",
+    "index.html": "/pokeui-yalo/index.html",
+    "static/css/main.bac7a841.chunk.css.map": "/pokeui-yalo/static/css/main.bac7a841.chunk.css.map",
+    "static/js/2.4c6b98b0.chunk.js.LICENSE.txt": "/pokeui-yalo/static/js/2.4c6b98b0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6377c214.js",
+    "static/js/runtime-main.0d235b4e.js",
     "static/js/2.4c6b98b0.chunk.js",
     "static/css/main.bac7a841.chunk.css",
     "static/js/main.f0d414eb.chunk.js"
