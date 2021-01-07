@@ -52,3 +52,13 @@ input.poke-search {
   font-size: 16px;
   outline: none;
 }
+
+.home-links {
+  padding: 0 1em 1em;
+}
+
+.home-links a {
+  color: #5955ef;
+  text-decoration: none;
+  margin-right: 1em;
+}
