@@ -1,4 +1,4 @@
-Live at https://annibal.github.io/pokeui-yalo/#/
+Live at https://annibal.github.io/archive-js-pokeui-yalo/#/
 
 ## What
 Interface that shows pokemons, allows to favorite some
